@@ -1,5 +1,6 @@
 'use client';
-import Button from './components/button';
+import Button from './components/Button';
+import Time from './components/Time';
 
 export default function Page() {
   // Access the version number from environment variables
@@ -11,6 +12,7 @@ export default function Page() {
         Click Me!!!!
       </Button>
       <div className='flex'>version {appVersion}</div>
+      <Time/>
     </>
   );
 }
