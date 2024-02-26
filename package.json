@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "next dev --turbo",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "next build && mkdir -p ./.next/standalone/public/static && cp -r ./.next/static/ ./.next/standalone/public/static && mkdir -p ./.next/standalone/.next/static && cp -r ./.next/static/ ./.next/standalone/.next/static"
   },
   "dependencies": {
     "next": "latest",
