@@ -1,6 +1,6 @@
 'use client';
-import Button from './components/Button';
-import Time from './components/Time';
+// import Button from './components/Button';
+// import Time from './components/Time';
 
 export default function Page() {
   // Access the version number from environment variables
@@ -8,11 +8,11 @@ export default function Page() {
 
   return (
     <>
-      <Button onClick={() => alert('Clicked!')} className='my-button'>
+      {/* <Button onClick={() => alert('Clicked!')} className='my-button'>
         Click Me!!!!
-      </Button>
+      </Button> */}
       <div className='flex'>version {appVersion}</div>
-      <Time/>
+      {/* <Time/> */}
     </>
   );
 }
